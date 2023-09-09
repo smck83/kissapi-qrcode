@@ -1,6 +1,6 @@
 {
   "name": "nextjs",
-  "version": "0.1.0",
+  "version": "*",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
@@ -8,9 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.0",
-    "qrcode": "^1.4.4",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "next": "*",
+    "qrcode": "*",
+    "react": "*",
+    "react-dom": "*"
   }
 }
